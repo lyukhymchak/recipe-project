@@ -1,7 +1,39 @@
-p {
-  font-family: "Roboto", sans-serif;
+body {
+  max-width: 1400px;
+  margin: auto;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
 }
 
-h1 {
-  font-family: "Nunito", sans-serif;
+header {
+  padding: 0 140px;
+}
+
+.recipe-collection {
+  text-align: center;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(/images/bg.png);
+
+  height: 265px;
+  padding: 45px 0;
+  background-repeat: no-repeat;
+}
+
+.recipe-collection-header {
+  font-size: 72px;
+  line-height: 98px;
+  color: #ffffff;
+}
+
+.recipe-collection-text {
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
 }
