@@ -1,15 +1,31 @@
+:root {
+  --branding-color: #272142;
+  --hover-color: #662eed;
+  --section-text-color: #ffffff;
+  --default-font-family: "Nunito", sans-serif;
+}
+
 body {
   max-width: 1400px;
   margin: auto;
-  font-family: "Nunito", sans-serif;
+  font-family: var(--default-font-family);
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
+  color: var(--branding-color);
 }
 
 header {
   padding: 0 140px;
+}
+
+.nav-link {
+  color: var(--branding-color);
+}
+
+.nav-link:hover {
+  color: var(--hover-color);
 }
 
 .recipe-collection {
@@ -24,16 +40,15 @@ header {
   height: 265px;
   padding: 45px 0;
   background-repeat: no-repeat;
+  color: var(--section-text-color);
 }
 
 .recipe-collection-header {
   font-size: 72px;
   line-height: 98px;
-  color: #ffffff;
 }
 
 .recipe-collection-text {
   font-size: 24px;
   line-height: 35px;
-  color: #ffffff;
 }
