@@ -87,6 +87,15 @@ footer {
   background: #f9f7fe;
 }
 
+footer a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+footer a:hover {
+  color: var(--hover-color);
+}
+
 .footer-text {
   font-family: "Roboto";
   font-style: normal;
@@ -94,6 +103,11 @@ footer {
   font-size: 16px;
   line-height: 19px;
   text-align: right;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
 }
 
 .about-header,
