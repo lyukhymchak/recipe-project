@@ -38,6 +38,11 @@ h1 {
   color: var(--hover-color);
 }
 
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--hover-color);
+}
+
 .recipes,
 .favorite-recipe,
 .recipe-collection {
