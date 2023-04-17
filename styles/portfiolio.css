@@ -39,7 +39,8 @@ h1 {
 }
 
 .recipes,
-.favorite-recipe {
+.favorite-recipe,
+.recipe-collection {
   text-align: center;
 }
 
@@ -62,6 +63,7 @@ h1 {
 }
 
 .recipe-img {
+  width: 100%;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 12px;
 }
@@ -89,8 +91,33 @@ footer {
   text-align: right;
 }
 
-.about-header {
+.about-header,
+.recipe-collection-header {
   padding: 100px 0;
+}
+
+.recipe-card {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.ingredients,
+.method {
+  text-align: left;
+}
+
+.ingredients p {
+  border-bottom: 1px dashed #67d5d2;
+}
+
+hr {
+  margin: 20px -12px;
+  border: 1px dashed #67d5d2;
+}
+
+.step {
+  color: #f65282;
+  font-weight: 800;
 }
 
 @media (max-width: 992px) {
@@ -121,8 +148,13 @@ footer {
     text-align: center;
   }
 
-  .about-header {
+  .about-header,
+  .recipe-collection-header {
     padding: 50px 0;
+  }
+
+  .recipe-card {
+    font-size: 14px;
   }
 
   .author-header {
