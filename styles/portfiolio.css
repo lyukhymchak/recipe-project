@@ -92,7 +92,8 @@ footer {
 }
 
 .about-header,
-.recipe-collection-header {
+.recipe-collection-header,
+.contact-header {
   padding: 100px 0;
 }
 
@@ -118,6 +119,24 @@ hr {
 .step {
   color: #f65282;
   font-weight: 800;
+}
+
+.info {
+  padding: 50px 50px;
+}
+
+.info h3 {
+  margin-top: 30px;
+  color: var(--hover-color);
+}
+
+.info a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+.info a:hover {
+  color: var(--hover-color);
 }
 
 @media (max-width: 992px) {
@@ -159,5 +178,9 @@ hr {
 
   .author-header {
     margin-top: 20px;
+  }
+
+  .info {
+    text-align: center;
   }
 }
