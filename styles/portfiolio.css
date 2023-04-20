@@ -7,7 +7,6 @@
 
 body {
   max-width: 1400px;
-  min-width: 400px;
   margin: auto;
   font-family: var(--default-font-family);
   font-size: 16px;
@@ -201,5 +200,9 @@ hr {
 
   .info {
     text-align: center;
+  }
+
+  .logo {
+    font-size: smaller;
   }
 }
